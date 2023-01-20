@@ -1,0 +1,15 @@
+.container {
+  background: rgb(238, 117, 117);
+  margin-top: 10px;
+  padding: 30px;
+  width: 100%;
+}
+
+.form-control {
+  margin-top: 20px;
+}
+
+.text-center {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}

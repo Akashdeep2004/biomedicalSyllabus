@@ -1,0 +1,45 @@
+.presentation {
+  display: grid;
+  place-items: center;
+  width: 90%;
+  min-height: 70vh;
+
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 0px 10px #111111;
+  margin-top: 20px;
+}
+
+.intro-text h1 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  color: whitesmoke;
+}
+
+.intro-text p {
+  margin: 25px;
+  font-size: 18px;
+  color: #585772;
+  color: white;
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cover img {
+  height: 60vh;
+  filter: drop-shadow(0px 5px 3px black);
+}

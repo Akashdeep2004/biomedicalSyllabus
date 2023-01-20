@@ -1,0 +1,36 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 80vh;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
+}
+
+.profile {
+  text-align: center;
+}
+
+.detail {
+  margin: 2px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.detail a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.app-footer {
+  width: 100%;
+  height: 50px;
+
+  align-items: center;
+}
+
+.app-footer ul {
+  margin-top: 50px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}

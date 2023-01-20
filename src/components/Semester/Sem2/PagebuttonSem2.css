@@ -1,0 +1,48 @@
+.pagebutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20px;
+  height: 70vh;
+  color: whitesmoke;
+}
+
+.pagebutton .button-b1 {
+  width: 120px;
+  animation: opacity 0.8s;
+}
+
+.pagebutton .button-b2 {
+  width: 120px;
+  animation: opacity 0.8s;
+}
+
+.pagebutton .button-b3 {
+  width: 120px;
+  animation: opacity 0.8s;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.3;
+    /* height: 7px; */
+    /* width: 24px; */
+  }
+  30% {
+    opacity: 0.5;
+    /* height: 14px; */
+    /* width: 48px; */
+  }
+
+  60% {
+    opacity: 0.7;
+    /* height: 21px; */
+    /* width: 96px; */
+  }
+  100% {
+    opacity: 1;
+    /* height: 28px; */
+    /* width: 120px; */
+  }
+}
